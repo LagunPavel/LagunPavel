@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+        	<meta charset="utf-8"/>
+        	<title>Лагун П., 2-ое задание по веб</title>
+          <link rel="stylesheet" type"text/css" href="style.css">
+        </head>
+		<body>
+		<div id="header">
+		<img style="float:left; margin:10px; width:100px; height:100px;" src="12.png" alt="Фиолетовый глаз"/>
+		<div id="hd_back"><big>Красивая шапка сайта</big></div>
+		</div>
+		<div id="nav">
+		<div id="navt">
+		<a href="http://example.com/main" style="color: #D8BFD8">Главная</a>
+		<a href="http://example.com/contacts" style="color: #D8BFD8">Контанкты</a>
+		<a href="http://example.com/partner" style="color: #D8BFD8">Наши партнёры</a>
+		</div>
+		</div>
+	  <div id="main">
+		<ol>
+
+	<li><a id="top">Вверх страницы</a></li>
+			
+	<li><a href="http://example.com">Главная страница example</a></li>
+			
+	<li><a href="https://example.com">Главная страница example https</a></li>
+			
+	<li><a href="ftp://example.com/Manhattan.txt">Ссылка на файл без авторизации</a></li>
+			
+	<li><a href="ftp://papabear:linkoln@example.com/Pacific.txt">Ссылка на файл с авторизацией</a></li>
+			
+	<li><a href="http://kubsu.ru/ru/fktipm#main-content">Перейти к основному содержанию</a></li>
+			
+	<li><a href="#top">Наверх</a></li>
+			
+	<li><a href="https://example.com?name=ivan&age=18">Ссылка с двумя параметрами в URL</a></li>
+			
+	<li><ul>
+	<li><a href="game.html" title="Игра">Игра</a></li>
+	<li><a href="bf1.html" title="Батлфилд1">Battlefield 1</a></li>
+	<li><a href="bf5.html" title="Батлфилд5">Battlefield 5</a></li>
+	</ul></li>
+			
+	<li><a>Ссылка без href</a></li>
+			
+	<li><a href="">Ссылка с пустым href</a></li>
+			
+	<li><a href="http://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+			
+        <li><a href="http://example.com" rel="noindex">Ссылка, запрещенная для индексации поисковиками</a></li>
+			
+	<li><p> Вот она такая <a href="https://www.speedtest.net/ru"> контекстная ссылка</a></li>
+			
+	<li>Фото с ссылкой<br/><a href="https://www.speedtest.net/ru"><img src="cat.jpg" width="300" height="400" alt="Просто киишка"></a></li>
+			
+	<li>Фото без ссылки, но с html-тегом<br/><img src="cat.jpg" width="400" height="300" usemap="#cat" alt="Просто кишка, но без ссылки"></li>
+			
+	<li><a href="ProjectX.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+			
+        <li><a href="about/answers.html">Относительная ссылка на страницу в текущем каталоге about</a></li>
+			
+        <li><a href="../qestions.html">Относительная ссылка на страницу в каталоге уровнем выше текущего </a></li>
+			
+        <li><a href="../../designer.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+			
+        <li><a href="/mainland">Сокращенная ссылка на главную</a></li>
+			
+        <li><a href="/society">Сокращенная ссылка на внутреннюю</a></li>
+	</ol>
+	</div>		
+	<map name="cat">
+            <area shape="rect" coords="0,0,30,300" href="https://www.speedtest.net/ru" alt="ссылка"/>
+            <area shape="rect" coords="0,0,400,10" href="https://www.speedtest.net/ru" alt="ссылка"/>
+	</map>
+  <div id="tabl">
+		<table border="2" width="500px" valign="middle">
+		 <tr>
+		  <th>Фамилия</th>
+		  <th>Класс</th>
+		  <th>Возраст</th>
+		</tr>
+		<tr>
+      		<td>Иванов</td>
+      		<td colspan="2">В саду</td>
+    		</tr>
+		<tr>
+		<td>Иванов1</td>
+		<td>2"А"</td>
+		<td>8</td>
+		</tr>
+		<tr>
+		<td>Иванов2</td>
+		<td>3"А"</td>
+		<td>9</td>
+		</tr>
+		<tr>
+		<td>Иванов3</td>
+		<td>3"А"</td>
+		<td>10</td>
+		</tr>
+		<tr>
+		<td>Иванов4</td>
+		<td>4"А"</td>
+		<td>11</td>
+		</tr>
+		<tr>
+		<td>Иванов5</td>
+		<td colspan="2">В армии</td>
+    		</tr>
+		</tr>
+		</table>
+		
+</div>
+	<div id="form">
+	<form action="/"
+      	method="POST">
+            <label>
+ Имя:<br/>
+                <input name="username" value="Имя"/>
+            </label><br>
+            <label>
+
+ Email:<br/>
+                <input name="Email" value="Почта" type="email"/>
+            </label><br>
+            <label>
+
+  Дата рождения:<br/>
+                <input name="birthday" value="1993-01-26" type="date"/> 
+            </label><br/>
+
+  Пол:<br/>
+            <label> 
+                <input type="radio" checked="checked" name="gen" value="Male"/>
+ Мужской
+            </label><br/>
+            <label> 
+                <input type="radio" checked="checked" name="gen" value="Female"/>
+ Женский
+            </label><br/>
+		
+ Устройство:<br/>
+            <label>
+                <input type="radio" checked="checked" name="numbers" value="4"/>
+ Компьютер
+           </label><br/> 
+            <label>
+                <input type="radio" checked="checked" name="numbers" value="2"/>
+ Телефон
+            </label><br/> 
+            <label>
+                <input type="radio" checked="checked" name="numbers" value="2"/>
+ MAC
+            </label><br/> 
+            <label>
+                <input type="radio" checked="checked" name="numbers" value="1"/>
+ Телевизор со SMART TV
+          </label><br/> 
+            <label>
+		    
+ Браузер:<br/>
+                <select name="Browser">
+                    <option value="Yandex">Яндекс</option>
+                    <option value="Google">Гугл</option>
+                    <option value="Opera">Опера</option>
+                    <option value="Other">Иное</option>
+               </select>
+            </label><br/>
+            <label>
+		    
+ Оставьте отзыв о работе сервиса<br/>
+                <textarea name="feedback">Всё прекрасно!</textarea>
+            </label><br/>
+
+            <label>
+                <input type="checkbox" checked="checked" name="check-alice"/>
+		    
+ С пользовательским соглашение ознакомлен(а)<br/>
+            </label>
+            <br>
+            <input type="submit" value="Отправить" id="send-button"/>
+        </form>
+	</div>
+<div id="footer">
+</div>
+	</body>
+</html>
