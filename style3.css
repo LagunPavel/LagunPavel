@@ -1,12 +1,12 @@
 header {
-    background-color: #4B0082;
+    background-color: #a0dec0;
 }
 #logo{
 width: 100px;
   height: 100px;
 }
 #logotxt{
-color:#E6E6FA;}
+color:#017042;}
 #navigation{
 margin: 0;
 padding: 0;
@@ -17,4 +17,4 @@ main{
 background-color:#15ed5d;}
 form{ order:0;background-color:#008f30;}
 table{ order:1;}
-footer{background-color:#4B0082;color:#E6E6FA;}
+footer{background-color:#04bd63;color:#fff;}
