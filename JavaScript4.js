@@ -3,7 +3,7 @@ var k=parseInt(document.getElementById("k").value);
 var s=parseInt(document.getElementById("s").value);
 var r=document.getElementById("res");
 if(k<1||s<1){
-	alert("Данные введены не коректно")
+	alert("Данные введены не корректно")
 	return false;}
 else
 r.innerHTML=k*s;
